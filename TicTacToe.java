@@ -37,9 +37,9 @@ public class TicTacToe extends JFrame implements ActionListener {
         }
 
         if (playerXTurn) {
-            buttonClicked.setText("X");
-        } else {
             buttonClicked.setText("O");
+        } else {
+            buttonClicked.setText("X");
         }
 
         playerXTurn = !playerXTurn;
